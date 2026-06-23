@@ -1,18 +1,18 @@
 export const siteConfig = {
-  name: "Someone's Portfolio",
-  description: "A showcase of my work and thoughts",
+  name: "岭羊传媒_互联网广告投放平台_腾讯/抖音多平台营销推广解决方案",
+  description: "腾讯/抖音多平台营销推广解决方案",
   nav: {
-    home: "Home",
-    posts: "Posts",
-    projects: "Projects",
-    about: "About"
+    home: "首页",
+    posts: "案例",
+    projects: "产品",
+    about: "关于岭羊"
   },
   home: {
-    greeting: "Hello, I'm Kai.",
-    description: "A passionate frontend developer with a keen eye for design and a love for creating beautiful, functional web experiences.",
+    greeting: "岭羊传媒6年营销经验",
+    description: "为您提供专业的互联网营销案例分析",
     buttons: {
-      viewProjects: "View Projects",
-      readPosts: "Read Posts"
+      viewProjects: "产品",
+      readPosts: "客户广告案例"
     }
   },
   projects: {
