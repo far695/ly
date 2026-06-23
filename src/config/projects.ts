@@ -8,19 +8,19 @@ export const projectsConfig = {
       title: "Project One",
       description: "A brief description of your first project. Explain what it does and what technologies you used.",
       href: "https://edgeone.ai/pages/templates?usecase=portfolio",
-      imageUrl: "/assets/images/projects/project1.png"
+      imageUrl: "https://github.com/far695/ly/blob/main/assets/images/project1.png"
     },
     {
       title: "Project Two",
       description: "Describe your second project here. Highlight the key features and your role in development.",
       href: "https://edgeone.ai/pages/templates?usecase=portfolio",
-      imageUrl: "/assets/images/projects/project2.png"
+      imageUrl: "https://github.com/far695/ly/blob/main/assets/images/project2.png"
     },
     {
       title: "Project Three",
       description: "Share details about your third project. What problems did it solve? What was the outcome?",
       href: "https://edgeone.ai/pages/templates?usecase=portfolio",
-      imageUrl: "/assets/images/projects/project3.png"
+      imageUrl: "https://github.com/far695/ly/blob/main/assets/images/project3.png"
     }
   ]
 } as const; 
