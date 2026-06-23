@@ -2,53 +2,52 @@
 import { Post } from '@/types/post';
 
 export const postsConfig = {
-  "title": "Blog Posts",
-  "description": "Technical articles, tutorials, and insights about web development and EdgeOne platform.",
-  "backButton": "Back to Home",
-  "noPosts": "No posts found matching your search.",
-  "searchPlaceholder": "Search posts by title...",
+  "title": "合作案例",
+  "description": "丰富广告资源,满足不同行业的广告投放。",
+  "backButton": "返回首页",
+  "noPosts": "没有找到符合您搜索条件的帖子。",
+  "searchPlaceholder": "搜索帖子...",
   "pagination": {
-    "previous": "Previous",
-    "next": "Next"
+    "previous": "上一页",
+    "next": "下一页"
   },
   "posts": [
     {
-      "title": "Docker Basics for Developers",
-      "description": "Learn the fundamentals of Docker and containerization",
-      "date": "2024-03-20",
+      "title": "中国南方电网",
+      "description": "爱帝宫跟厚拓合作有四五年了，我们不仅是合作伙伴，更是老朋友了",
+      "date": "2026-06-24",
       "image": "/assets/images/posts/post1.jpg",
       "slug": "posts/docker-basics",
       "tags": [
-        "docker",
-        "devops",
-        "containers",
-        "deployment"
+        "中国南方电网",
+        "抖音",
+        "朋友圈",
+        "今日头条"
       ],
-      "author": "Lisa Wang",
+      "author": "岭羊传媒",
       "readTime": "5",
-      "content": "\n# Docker Basics for Developers\n\nDocker has revolutionized how we deploy and run applications. Let's learn the basics of containerization with Docker.\n\n## Core Concepts\n\n- Containers\n- Images\n- Dockerfile\n- Docker Compose\n\n## Example Dockerfile\n\n```dockerfile\n# Base image\nFROM node:18-alpine\n\n# Set working directory\nWORKDIR /app\n\n# Copy package files\nCOPY package*.json ./\n\n# Install dependencies\nRUN npm install\n\n# Copy source code\nCOPY . .\n\n# Build application\nRUN npm run build\n\n# Expose port\nEXPOSE 3000\n\n# Start application\nCMD [\"npm\", \"start\"]\n```\n\n## Common Commands\n\n1. `docker build -t myapp .`\n2. `docker run -p 3000:3000 myapp`\n3. `docker-compose up`\n4. `docker ps`\n",
+      "contentcontent": "\n# Docker Basics for Developers\n\nDocker has revolutionized how we deploy and run applications. Let's learn the basics of containerization with Docker.\n\n## Core Concepts\n\n- Containers\n- Images\n- Dockerfile\n- Docker Compose\n\n## Example Dockerfile\n\n```dockerfile\n# Base image\nFROM node:18-alpine\n\n# Set working directory\nWORKDIR /app\n\n# Copy package files\nCOPY package*.json ./\n\n# Install dependencies\nRUN npm install\n\n# Copy source code\nCOPY . .\n\n# Build application\nRUN npm run build\n\n# Expose port\nEXPOSE 3000\n\n# Start application\nCMD [\"npm\", \"start\"]\n```\n\n## Common Commands\n\n1. `docker build -t myapp .`\n2. `docker run -p 3000:3000 myapp`\n3. `docker-compose up`\n4. `docker ps`\n",
       "html": "<h1>Docker Basics for Developers</h1>\n<p>Docker has revolutionized how we deploy and run applications. Let&#39;s learn the basics of containerization with Docker.</p>\n<h2>Core Concepts</h2>\n<ul>\n<li>Containers</li>\n<li>Images</li>\n<li>Dockerfile</li>\n<li>Docker Compose</li>\n</ul>\n<h2>Example Dockerfile</h2>\n<pre><code class=\"language-dockerfile\"># Base image\nFROM node:18-alpine\n\n# Set working directory\nWORKDIR /app\n\n# Copy package files\nCOPY package*.json ./\n\n# Install dependencies\nRUN npm install\n\n# Copy source code\nCOPY . .\n\n# Build application\nRUN npm run build\n\n# Expose port\nEXPOSE 3000\n\n# Start application\nCMD [&quot;npm&quot;, &quot;start&quot;]\n</code></pre>\n<h2>Common Commands</h2>\n<ol>\n<li><code>docker build -t myapp .</code></li>\n<li><code>docker run -p 3000:3000 myapp</code></li>\n<li><code>docker-compose up</code></li>\n<li><code>docker ps</code></li>\n</ol>\n"
     },
     {
-      "title": "Getting Started with Next.js 14",
-      "description": "A comprehensive guide to building modern web applications with Next.js 14",
+      "title": "茶理宜世",
+      "description": "在过去的合作中，你们为我们提供了的广告投放服务，为此我们感到幸运和满意。",
       "date": "2024-03-20",
       "image": "/assets/images/posts/post2.jpg",
       "slug": "posts/getting-started-with-nextjs",
       "tags": [
-        "nextjs",
-        "react",
-        "web development",
-        "tutorial"
+        "茶理宜世",
+        "朋友圈",
+        "instagram"
       ],
-      "author": "Jane Smith",
+      "author": "岭羊传媒",
       "readTime": "5",
       "content": "\n# Getting Started with Next.js 14\n\nNext.js 14 brings exciting new features and improvements to the React framework. In this guide, we'll explore the key features and learn how to build modern web applications.\n\n## Key Features\n\n- Server Components\n- App Router\n- Server Actions\n- Improved Performance\n\n## Getting Started\n\n```bash\nnpx create-next-app@latest my-app\ncd my-app\nnpm run dev\n```\n\n## Best Practices\n\n1. Use Server Components by default\n2. Implement proper error boundaries\n3. Optimize images with next/image\n4. Leverage the new App Router\n",
       "html": "<h1>Getting Started with Next.js 14</h1>\n<p>Next.js 14 brings exciting new features and improvements to the React framework. In this guide, we&#39;ll explore the key features and learn how to build modern web applications.</p>\n<h2>Key Features</h2>\n<ul>\n<li>Server Components</li>\n<li>App Router</li>\n<li>Server Actions</li>\n<li>Improved Performance</li>\n</ul>\n<h2>Getting Started</h2>\n<pre><code class=\"language-bash\">npx create-next-app@latest my-app\ncd my-app\nnpm run dev\n</code></pre>\n<h2>Best Practices</h2>\n<ol>\n<li>Use Server Components by default</li>\n<li>Implement proper error boundaries</li>\n<li>Optimize images with next/image</li>\n<li>Leverage the new App Router</li>\n</ol>\n"
     },
     {
-      "title": "Designing GraphQL APIs",
-      "description": "Best practices for designing and implementing GraphQL APIs",
+      "title": "农夫山泉",
+      "description": "厚拓公司实力雄厚，团队专业水平好，认真负责，会继续合作互惠互利，再创辉煌业绩。",
       "date": "2024-03-20",
       "image": "/assets/images/posts/post3.jpg",
       "slug": "posts/graphql-api",
@@ -58,7 +57,7 @@ export const postsConfig = {
         "backend",
         "web development"
       ],
-      "author": "Tom Wilson",
+      "author": "岭羊传媒",
       "readTime": "5",
       "content": "\n# Designing GraphQL APIs\n\nGraphQL provides a powerful way to build flexible APIs. Let's explore how to design and implement GraphQL APIs effectively.\n\n## Schema Design\n\n```graphql\ntype User {\n  id: ID!\n  name: String!\n  email: String!\n  posts: [Post!]!\n}\n\ntype Post {\n  id: ID!\n  title: String!\n  content: String!\n  author: User!\n  comments: [Comment!]!\n}\n\ntype Query {\n  user(id: ID!): User\n  posts: [Post!]!\n}\n\ntype Mutation {\n  createPost(input: CreatePostInput!): Post!\n  updatePost(id: ID!, input: UpdatePostInput!): Post!\n}\n```\n\n## Best Practices\n\n1. Use proper types\n2. Implement pagination\n3. Handle errors gracefully\n4. Use fragments for reusability\n\n## Implementation Tips\n\n- Use DataLoader for batching\n- Implement proper caching\n- Handle authentication\n- Monitor performance\n",
       "html": "<h1>Designing GraphQL APIs</h1>\n<p>GraphQL provides a powerful way to build flexible APIs. Let&#39;s explore how to design and implement GraphQL APIs effectively.</p>\n<h2>Schema Design</h2>\n<pre><code class=\"language-graphql\">type User {\n  id: ID!\n  name: String!\n  email: String!\n  posts: [Post!]!\n}\n\ntype Post {\n  id: ID!\n  title: String!\n  content: String!\n  author: User!\n  comments: [Comment!]!\n}\n\ntype Query {\n  user(id: ID!): User\n  posts: [Post!]!\n}\n\ntype Mutation {\n  createPost(input: CreatePostInput!): Post!\n  updatePost(id: ID!, input: UpdatePostInput!): Post!\n}\n</code></pre>\n<h2>Best Practices</h2>\n<ol>\n<li>Use proper types</li>\n<li>Implement pagination</li>\n<li>Handle errors gracefully</li>\n<li>Use fragments for reusability</li>\n</ol>\n<h2>Implementation Tips</h2>\n<ul>\n<li>Use DataLoader for batching</li>\n<li>Implement proper caching</li>\n<li>Handle authentication</li>\n<li>Monitor performance</li>\n</ul>\n"
