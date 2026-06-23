@@ -17,50 +17,40 @@ export const aboutConfig = {
     },
   ],
   skills: [
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "Docker",
-    "Git",
-    "AWS"
+    "广点通",
+    "朋友圈",
+    "视频号",
+    "抖音",
+    "今日头条",
+    "快手",
+    "meta",
+    "tiktok"
   ],
   experience: {
-    title: "Experience",
+    title: "历史荣誉",
     items: [
       {
-        period: "2022 - Present",
-        role: "Senior Frontend Developer",
-        company: "Tencent Cloud",
-        description: "Leading frontend development for EdgeOne platform and templates."
+        period: "2023 - 2024",
+        role: "广点通玩具榜首",
+        company: "腾讯广告",
+        description: "2024腾讯广告区域服务商营销开拓奖"
       },
       {
-        period: "2020 - 2022",
-        role: "Frontend Developer",
-        company: "Tencent Cloud",
-        description: "Developed and maintained multiple web applications and tools."
+        period: "2025",
+        role: "抖音本地生活榜首",
+        company: "巨量引擎",
+        description: "2025年抖音产业带服务商（爱创）"
       },
       {
-        period: "2018 - 2020",
-        role: "Junior Developer",
-        company: "Tencent Cloud",
-        description: "Worked on various client projects and internal tools."
+        period: "2023-2024",
+        role: "抖音社交软件营销日耗10W",
+        company: "巨量引擎",
+        description: "2024年巨量引流电商认证技术+投放服务商"
       }
     ]
   },
   connect: {
-    title: "Let's Connect",
-    description: "Feel free to reach out if you want to collaborate or just say hi! You can find us on social media or drop us an email.",
-    links: {
-      twitter: {
-        text: "follow us on twitter",
-        url: "https://x.com/TencentCloudEO"
-      },
-      email: {
-        text: "email",
-        url: "mailto:media_service@tencent.com"
-      }
-    }
+    title: "联系我们",
+    description: "成熟的广告运营团队和创意、设计团队及专业的直播团队，cid引流电商技术服务商证书现在的厚拓已经是移动互联网整合营销方案的专业提供者，拥有综合实力的互联网广告、直播、CID技术服务机构。"
   }
 }; 
