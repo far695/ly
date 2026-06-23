@@ -64,24 +64,6 @@ export default function AboutContent() {
           <h2 className="mb-2 text-2xl font-bold dark:text-neutral-200">{aboutConfig.connect.title}</h2>
           <div className="py-[30px]">
             <p className="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
-              {aboutConfig.connect.description.split('follow us on twitter').map((part, index, array) => {
-                if (index === array.length - 1) {
-                  const [beforeEmail, afterEmail] = part.split('email');
-                  return (
-                    <>
-                      {beforeEmail}
-                      <a href={aboutConfig.connect.links.email.url} className="text-indigo-600 underline">{aboutConfig.connect.links.email.text}</a>
-                      {afterEmail}
-                    </>
-                  );
-                }
-                return (
-                  <>
-                    {part}
-                    <a href={aboutConfig.connect.links.twitter.url} target="_blank" className="text-indigo-600 underline">{aboutConfig.connect.links.twitter.text}</a>
-                  </>
-                );
-              })}
             </p>
           </div>
         </div>
