@@ -84,7 +84,7 @@ export default function HomeContent() {
               href="/about"
               className="group inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-neutral-900 rounded-lg hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100 transition-all duration-300 hover:scale-105 cursor-pointer"
             >
-              View About
+              关于岭羊
               <svg 
                 className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" 
                 fill="none" 
