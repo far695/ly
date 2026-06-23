@@ -14,7 +14,7 @@ export const postsConfig = {
   "posts": [
     {
       "title": "中国南方电网",
-      "description": "爱帝宫跟厚拓合作有四五年了，我们不仅是合作伙伴，更是老朋友了",
+      "description": "中国南方电网跟岭羊传媒合作有四五年了，我们不仅是合作伙伴，更是老朋友了",
       "date": "2026-06-24",
       "image": "/assets/images/posts/post1.jpg",
       "slug": "posts/docker-basics",
