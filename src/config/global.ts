@@ -1,7 +1,7 @@
 export const globalConfig = {
   site: {
     name: "Your Portfolio Name",
-    author: "Your Name",
+    author: "岭羊(广州)文化传媒有限公司",
     description: "A brief description of your portfolio website",
     url: "/"
   },
@@ -9,30 +9,26 @@ export const globalConfig = {
     aria: "Main Navigation",
     items: [
       {
-        title: "Home",
+        title: "首页",
         href: "/"
       },
       {
-        title: "Projects",
+        title: "产品",
         href: "/projects"
       },
       {
-        title: "Posts",
+        title: "案例",
         href: "/posts"
       },
       {
-        title: "About",
+        title: "关于岭羊",
         href: "/about"
       }
     ]
   },
   footer: {
     aria: "Footer Navigation",
-    copyright: "© 2025 Your Name. All rights reserved.",
-    social: {
-      twitter: "https://x.com/TencentCloudEO",
-      github: "https://github.com/TencentEdgeOne",
-      email: "media_service@tencent.com"
-    }
+    copyright: "© 2026 岭羊(广州)文化传媒有限公司。版权所有。",
+    social: { }
   }
 } as const; 
