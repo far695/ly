@@ -1,12 +1,12 @@
 ---
-title: "Docker Basics for Developers"
-description: "Learn the fundamentals of Docker and containerization"
-author: "Lisa Wang"
-tags: ["docker", "devops", "containers", "deployment"]
+title: "中国南方电网"
+description: "中国南方电网跟岭羊传媒合作有四五年了，我们不仅是合作伙伴，更是老朋友了。"
+author: "岭羊传媒"
+tags: ["中国南方电网", "抖音", "朋友圈", "今日头条"]
 image: "/assets/images/posts/post1.jpg"
 ---
 
-# Docker Basics for Developers
+# 中国南方电网
 
 Docker has revolutionized how we deploy and run applications. Let's learn the basics of containerization with Docker.
 
