@@ -41,7 +41,7 @@ export const siteConfig = {
       },
       {
         title: "小红书",
-        description: "小红书商业根植于社区的"种草"文化——用户在真实分享中自然激发消费意愿。",
+        description: "小红书商业根植于社区的\"种草\"文化——用户在真实分享中自然激发消费意愿。",
         href: "https://sink.cool",
         imageUrl: "/assets/images/projects/sink.cool.png"
       },
