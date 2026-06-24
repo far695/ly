@@ -16,32 +16,32 @@ export const siteConfig = {
     }
   },
   projects: {
-    title: "My Projects",
-    description: "Here are some of the current projects I've been working on. I really enjoy creating new projects and coming up with new ideas. I'm always working on something new, so check back often!",
-    backButton: "Back to Home",
-    noProjects: "No projects found.",
+    title: "产品介绍",
+    description: "拥有丰富的海量产品，覆盖用户各个使用场景，无缝触达您的目标客户定制化投放方案，达成各种营销目标。",
+    backButton: "返回首页",
+    noProjects: "找不到相关产品",
     items: [
       {
-        title: "TempMail.Best",
-        description: "Best Temporary Email.",
+        title: "腾讯广告",
+        description: "国内年轻社交平台，用黑科技和多元玩法与年轻用户深度互动。",
         href: "https://tempmail.best",
         imageUrl: "/assets/images/projects/tempmail.best.png"
       },
       {
-        title: "DNS.Surf",
-        description: "Querying DNS Resolution Results in Different Regions Worldwide.",
+        title: "头条&抖音广告",
+        description: "大数据今日头条&抖音媒体资源，引领智能移动广告，整合营销体系。",
         href: "https://dns.surf",
         imageUrl: "/assets/images/projects/dns.surf.png"
       },
       {
-        title: "HTML.ZONE",
-        description: "Web Toolbox.",
+        title: "快手广告",
+        description: "广告投放 +电商直播卖货+视频号长效运营，沉浸式原生视频体验，看见更多好内容。",
         href: "https://html.zone",
         imageUrl: "/assets/images/projects/html.zone.png"
       },
       {
-        title: "Sink",
-        description: "A Simple / Speedy / Secure Link Shortener with Analytics.",
+        title: "小红书",
+        description: "小红书商业根植于社区的"种草"文化——用户在真实分享中自然激发消费意愿。",
         href: "https://sink.cool",
         imageUrl: "/assets/images/projects/sink.cool.png"
       },
@@ -60,14 +60,14 @@ export const siteConfig = {
     ]
   },
   posts: {
-    title: "My Writing",
-    description: "My thoughts and ideas about technology and development.",
-    backButton: "Back to Home",
-    noPosts: "No posts found matching your search.",
-    searchPlaceholder: "Filter posts by title...",
+    title: "合作案例",
+    description: "丰富广告资源,满足不同行业的广告投放。",
+    backButton: "返回首页",
+    noPosts: "没有找到符合您搜索条件的帖子。",
+    searchPlaceholder: "搜索帖子...",
     pagination: {
-      previous: "Previous",
-      next: "Next"
+      previous: "上一页",
+      next: "下一页"
     },
     items: [
       {
@@ -153,12 +153,12 @@ export const siteConfig = {
     ]
   },
   about: {
-    title: "About",
-    description: "Learn more about me and my journey.",
-    backButton: "Back to Home"
+    title: "关于岭羊",
+    description: "了解更多关于岭羊传媒的介绍。",
+    backButton: "返回首页"
   },
   theme: {
-    dayMode: "Day mode",
-    nightMode: "Night mode"
+    dayMode: "浅色",
+    nightMode: "深色"
   }
 } as const 
